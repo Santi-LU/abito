@@ -1,0 +1,41 @@
+.header {
+    padding-top: 30px;
+    padding-left: 24px;
+}
+
+.header-burger {
+    width: 30px;
+    height: 19;
+    display: none;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-logo span {
+    line-height:  28px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 6px;
+    color: rgb(10, 20, 58);
+}
+
+@media (max-width: 991px) {
+    .header-control {
+        display: none;
+    }
+
+    .header-burger {
+        display: block;
+    }
+}
